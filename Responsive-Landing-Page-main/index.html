@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page with Hamburger Menu</title>
+</head>
+<body>
+    <!-- Home Section -->
+    <div id="home" class="bg">
+        <!-- Navbar -->
+        <div id="navbar" class="navbar">
+            <!-- Hamburger Icon -->
+            <div id="menu-toggle" class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <!-- Menu -->
+            <ul id="menu" class="menu hidden">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="hero">
+            <h1>Welcome to Our Landing Page</h1>
+            <p>Discover more about what we offer.</p>
+            <a href="#about" class="cta-btn">Explore</a>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>We are committed to providing the best solutions to our clients. Our team focuses on delivering quality and ensuring customer satisfaction. Explore our journey and learn more about our mission and vision.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Have any questions? We’d love to hear from you. Fill out the form below to reach us directly.</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
